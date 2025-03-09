@@ -1,0 +1,3 @@
+/api/*  https://intra-net.shop/api/:splat  200!  Access-Control-Allow-Origin=https://intra-net.netlify.app
+/intra-net/*  https://intra-net.netlify.app/:splat  200!
+/* /index.html 200
