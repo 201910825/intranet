@@ -1,30 +1,44 @@
-# React + TypeScript + Vite
+# 🏢 Simple Intranet (심플 인트라넷)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+자영업자와 소규모 기업을 위한 간편한 사내 인트라넷 시스템
 
-Currently, two official plugins are available:
+## ✨ 주요 기능
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 📋 공지사항 및 사내 게시판
+- 중요 공지사항 상단 고정
+- 부서별 게시판 관리
+- 첨부파일 지원
+- 댓글 및 답글 기능
 
-## Expanding the ESLint configuration
+### ⏰ 스마트 근태 관리
+- GPS 기반 간편 출퇴근 체크
+- 관리자 설정 가능한 출근 반경 설정
+- 근무시간 자동 계산
+- 월별/주별 근태 통계
+- 휴가/연차 관리
+- 출장/외근 관리
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### 📅 일정 관리 시스템
+- 개인/부서/전체 캘린더
+- 일정 공유 및 초대
+- 반복 일정 설정
+- 알림 설정 (이메일, 푸시 알림)
+- 회의실 예약 시스템
 
-- Configure the top-level `parserOptions` property like this:
+### 👥 직원 관리
+- 관리자 권한 설정
+- 부서별 조직도 관리
+- 직원 프로필 관리
+  - 기본 정보
+  - 직급/직책 관리
+  - 연락처 정보
+- 입사/퇴사 처리
+- 권한별 접근 제어
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 🛠 기술 스택
+
+- Vite-React, tanstack-router,tanstack-query, TailwindCSS with Shadcn-ui
+
+
+
